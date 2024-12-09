@@ -46,8 +46,7 @@ CREATE TABLE game (
 
 CREATE TABLE question (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    question VARCHAR(255) NOT NULL,
-    is_correct BOOLEAN NOT NULL
+    title VARCHAR(255) NOT NULL,
 );
 
 CREATE TABLE answer (
