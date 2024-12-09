@@ -16,7 +16,7 @@ public class Question {
     private Long id;
 
     @Column(nullable = false)
-    private String question;
+    private String title;
 
     @ManyToMany
     @JoinTable(
